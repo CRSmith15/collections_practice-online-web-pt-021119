@@ -23,3 +23,7 @@ end
 def reverse_array(x)
   x.reverse 
 end 
+
+def kesha_maker(x)
+  
+end 
