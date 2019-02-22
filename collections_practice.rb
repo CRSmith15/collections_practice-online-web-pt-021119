@@ -14,3 +14,9 @@ def sort_array_char_count(x)
   x.sort_by {|x| x.length}
 
 end
+
+def swap_elements(x)
+  
+end
+  
+  
