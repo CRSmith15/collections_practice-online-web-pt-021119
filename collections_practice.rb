@@ -38,7 +38,9 @@ def sum_array(x)
   x.inject {|sum, num| sum = sum + num}
 end 
 
-
+def add_s(x)
+  x.map_with_index {|word, i| 
+end 
 
 
 
