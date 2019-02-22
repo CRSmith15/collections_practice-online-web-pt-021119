@@ -29,3 +29,7 @@ def kesha_maker(x)
   x.each {|name| new_arr << name[2] = "$"}
   
 end 
+
+def find_a(x)
+  x.select {|letter| letter[0] = "a"}
+end 
