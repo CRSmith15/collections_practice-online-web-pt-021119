@@ -39,7 +39,7 @@ def sum_array(x)
 end 
 
 def add_s(x)
-  x.map_with_index {|word, i| 
+  x.map_with_index {|word, i| word << "s" unless i == 1}
 end 
 
 
