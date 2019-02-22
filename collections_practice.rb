@@ -39,7 +39,7 @@ def sum_array(x)
 end 
 
 def add_s(x)
-  x.each_with_index.collect {|word, i| word << "s" unless i == 1}
+  x.each_with_index {|word, i| word << "s" unless i == 1}
 end 
 
 
