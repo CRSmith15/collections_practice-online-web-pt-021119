@@ -31,5 +31,5 @@ def kesha_maker(x)
 end 
 
 def find_a(x)
-  x.select {|letter| letter[0] = "a"}
+  x.select {|letter| letter[0] == "a"}
 end 
